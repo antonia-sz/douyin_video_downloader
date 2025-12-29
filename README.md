@@ -49,7 +49,7 @@ SAVE_DIR = "videos"
 # 测试模式：设为数字只处理前 N 条，设为 None 处理全部
 TEST_N = None
 
-# 视频解析 API（需要自行获取）
+# 视频解析 API（需要自行获取，推荐Parsevideo）
 API_BASE = "你的视频解析API"
 ```
 
@@ -67,7 +67,7 @@ python douyin_video_downloader.py
 
 ## ⚠️ 注意事项
 
-1. **API 配置**：需要配置有效的视频解析 API 才能使用
+1. **API 配置**：需要配置有效的视频解析 API 才能使用，解析API推荐Parsevideo，网址https://pv.vlogdownloader.com/
 2. **合规使用**：请遵守相关法律法规，仅供学习研究使用
 3. **版权声明**：下载的视频版权归原作者所有
 

@@ -4,7 +4,7 @@
 
 主要功能：
 1. 从 Excel 文件中读取抖音分享链接（自动识别包含"链接"或"url"的列）
-2. 调用第三方解析 API（vlogdownloader）将分享链接转换为可下载的真实视频地址
+2. 调用第三方解析 API将分享链接转换为可下载的真实视频地址，解析API推荐Parsevideo，网址https://pv.vlogdownloader.com/
 3. 优先下载 720p 高清视频，若无则选择其他可用格式
 4. 支持断点续传：已下载的有效视频文件会自动跳过
 5. 下载失败自动重试（最多3次），并记录所有失败链接及原因
@@ -41,7 +41,7 @@ SAVE_DIR = "videos"
 # 是否只试跑前 N 条；想全量就改为 None
 TEST_N = None   # 之前用 10 试跑，现在可以设为 None 跑全部
 
-# vlogdownloader视频解析 API
+# Parsevideo视频解析 API
 API_BASE = "你的视频解析API"
 
 # 认为“下载成功”的最小文件大小（字节）
